@@ -6,11 +6,11 @@ import About from "./About"
 import Shop from "./Shop"
 import ItemDetail from "./ItemDetail"
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom"
 function App() {
   return (
     <Router>
-      <div calssName="App">
+      <div className="App">
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
